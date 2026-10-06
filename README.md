@@ -1,16 +1,40 @@
 # Châtillon’s cipher letter to Servien (3 August 1635)
 
-Local conditional repeat and N2-width dependency hypothesis. Replay covers 6,144 dependent alignment conditions and 24 width conditions, not a recovered full key or independent confirmations.
+Châtillon’s cipher letter to Servien from Nijmegen, dated 3 August 1635. Graphical signs and numerical groups are compared with possible clear-text counterparts.
 
-Read the [research account](chatillon-1635/README.md), [verification guide](verification/README.md), and [sources and limits](verification/TOPIC_SCOPE_INDEX.json).
+## What has been found?
 
-Run the bounded offline checks with Python 3.10 or later from this repository root:
+This is an unfinished reconstruction and a test of assumptions, not a complete decipherment. The current reproducible result shows how the possible reading of a crossed sign changes when the neighboring numeral N2 is allowed to emit more letters.
+
+A small example from the recorded result:
+
+```text
+N2: one letter → {f}; up to eight letters → {e, f, n, r}
+```
+
+These sets describe outputs allowed by a declared alignment model. They do not establish the historical meaning of N2 or of the crossed sign.
+
+## Start reading
+
+1. [Read the plain-language guide](READING_GUIDE.md): the document, result, file meanings and one worked check. No programming is required.
+2. Open [Saved assumption-test results](verification/experiments/verification_results.json) to inspect the saved text or test result itself.
+3. Read the [research account](chatillon-1635/README.md) for historical context, methods, earlier work and unresolved questions.
+
+## How can I check it?
+
+Follow the worked example in [the reading guide](READING_GUIDE.md#check-one-example-by-hand). It connects a source record, a key or model assumption, and the saved output. For an independent source check, use the [original-source entry](https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f135.item); images are linked, not redistributed here.
+
+If you use Python, follow the [complete verification instructions](verification/README.md), including download/setup, expected results and troubleshooting. The command from this repository’s top-level folder is:
 
 ```sh
 python3 verification/check_all.py
 ```
 
-The checks reproduce only the documented public subset. Mapping coverage is not accuracy; successful replay does not establish a correct source reading or historical truth. Original and later corrected states remain separate.
+A successful run means the published files and declared calculation reproduce. It does not establish that every source sign or historical interpretation is correct.
+
+## Precise research scope
+
+Local conditional repeat and N2-width dependency hypothesis. Replay covers 6,144 dependent alignment conditions and 24 width conditions, not a recovered full key or independent confirmations.
 
 This is part of [Cipher-Atelier](https://github.com/Cipher-Atelier), founded by [Maxim Egorov](https://github.com/cayde-6). Explore the [research index](https://github.com/Cipher-Atelier/research-index), [contribution guide](https://github.com/Cipher-Atelier/.github/blob/main/CONTRIBUTING.md), and [step-by-step research workflow](https://github.com/Cipher-Atelier/research-index/blob/main/START_HERE.md).
 
