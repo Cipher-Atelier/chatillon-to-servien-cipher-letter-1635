@@ -1,0 +1,7 @@
+# Châtillon: exposed N2-width dependency
+
+`config.json` is a new extraction of factual token/width constraints, inherited mappings, explicit historical-text alternatives, and expected count projections. The historical-source working transcription is the project's analytical reading of BnF Français 3758, Châtillon to Servien, 3 August 1635, especially [Gallica view 139](https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f139.item). Credit: Bibliothèque nationale de France for preservation/digitization; Daniel Bourdeau's [Rohan correspondence page](https://dbourdeau.github.io/cyphersolver/rohan1636.html) for earlier source context. No third-party code, facsimile or modern article prose is reproduced.
+
+The newly written position-DAG verifier reproduces the complete finite table via its canonical digest and checks all width projections directly. The four textual alternatives are source-dependent working/sensitivity transcriptions, not independently authenticated literal plaintext. All were already exposed. Twelve named branches comprise six distinct alignment problems because one spelling difference lies beyond reachable endpoints.
+
+With eight other mappings retained, a one-letter unknown N2 keeps closed=f while allowing N2=d or r. A 1–8-letter N2 admits closed=e/f/n/r. Neither admits s. This identifies a length dependency without establishing a unique historical bound, value, closed-sign reading, repeat operator, or full key. Unknown occurrences are independent alignment slots.

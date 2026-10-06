@@ -1,0 +1,20 @@
+{
+  "chatillon-1635": {
+    "status": "passed",
+    "ablation_conditions": 6144,
+    "width_conditions": 24,
+    "forcing_subsets": 240,
+    "closed_values_by_n2_max_width": {
+      "1": [
+        "f"
+      ],
+      "8": [
+        "e",
+        "f",
+        "n",
+        "r"
+      ]
+    },
+    "scope": "Conditional exposed-text alignment, not a recovered complete key"
+  }
+}

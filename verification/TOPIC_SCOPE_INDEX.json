@@ -1,0 +1,24 @@
+{
+  "basis_commit": "24a7ae8f3e88664f3f1b472082f80259be641f98",
+  "note": "One topic only. Migration adds a public subset, not a complete original evidence archive.",
+  "topics": [
+    {
+      "topic": "chatillon-1635",
+      "category": "conditional_diagnostic",
+      "published_page": "https://github.com/Cipher-Atelier/chatillon-1635/blob/main/chatillon-1635/README.md",
+      "claim_scope": "Conditional mappings and N2-width dependency; no uniquely validated full key.",
+      "source_links": [
+        "https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f135.item",
+        "https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f140.item",
+        "https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f137.item",
+        "https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f138.item",
+        "https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f139.item",
+        "https://dbourdeau.github.io/cyphersolver/rohan1636.html"
+      ],
+      "minimum_verification_scope": "N2 immutable source/branches/config, exhaustive test code, 6,144 rows, 24 width controls, conditional mapping and source segmentation ledgers, first/later results and counterpart restrictions.",
+      "public_release_gap": "6,144 conditions are dependent variants, not independent confirmations. Local repeat behavior does not establish a global rule.",
+      "verification_entry": "experiments/README.md",
+      "original_published_page": "https://github.com/cayde-6/historical-cipher-research/blob/24a7ae8f3e88664f3f1b472082f80259be641f98/chatillon-1635/README.md"
+    }
+  ]
+}

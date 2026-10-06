@@ -1,0 +1,23 @@
+{
+  "scope": "Public-safe minimal candidate: exclusions are deliberate and do not imply reproducibility of omitted stages.",
+  "items": [
+    {
+      "topic": "all",
+      "material": "Every original ZIP container, facsimile, image, PDF, DOCX and raw execution log",
+      "status": "excluded",
+      "reason": "Not necessary for minimal replay; modern source-image and document redistribution rights not comprehensively verified. Do not infer an image licence from a historical work's age."
+    },
+    {
+      "topic": "all",
+      "material": "Archived experimental Python/C++ code and upstream third-party repository files",
+      "status": "excluded",
+      "reason": "All public code here is newly written. No licence for copied upstream code is guessed or inherited."
+    },
+    {
+      "topic": "chatillon-1635",
+      "material": "Manuscript images, source PDFs, predecessor archive commentary and prior-source website prose",
+      "status": "not_included",
+      "reason": "Only project analytical historical-text alternatives, factual constraints and derived counts are included; no image or modern scholarly prose licence is asserted."
+    }
+  ]
+}

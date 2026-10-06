@@ -1,0 +1,79 @@
+{
+  "intended_repository_path": "verification/experiments/",
+  "prepared_utc": "2026-10-06",
+  "scope": "Scoped bounded verification for chatillon-1635; not a complete original research archive.",
+  "publication_authority": "Curated for publication by the repository owner.",
+  "licensing_note": "No repository licence is selected or guessed here. New project code/text may be published under the owner's chosen repository terms. No third-party source payload has been silently relicensed. Facts, hashes and numerical project observations are separated from excluded source expression.",
+  "files": [
+    {
+      "path": "chatillon-1635/README.md",
+      "sha256": "1617cff20d507c52b19e5fe110d754b9dd1388855fb74a79947426d8cbcd0e13",
+      "bytes": 1503,
+      "publication_status": "ready_to_publish",
+      "external_licence_grant_asserted": false,
+      "origin": "New explanatory text or publication-scope metadata composed for this release.",
+      "rights_basis": "New project text; links and bibliographic facts credit the external sources without reproducing their substantive material.",
+      "source_credit_urls": [
+        "https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f139.item",
+        "https://dbourdeau.github.io/cyphersolver/rohan1636.html"
+      ],
+      "source_sha256": "1617cff20d507c52b19e5fe110d754b9dd1388855fb74a79947426d8cbcd0e13"
+    },
+    {
+      "path": "chatillon-1635/config.json",
+      "sha256": "b130ebb024676a41749532a473e5918078f64f572be83ed20f76a56f2b48b872",
+      "bytes": 86144,
+      "publication_status": "ready_to_publish",
+      "external_licence_grant_asserted": false,
+      "origin": "New minimal encoding of project-authored historical working/sensitivity transcription, factual token constraints and numeric expected projections. No image or external code; exposed 1635 text alternatives remain explicitly conditional.",
+      "rights_basis": "Selected factual/project analytical material; no licence to cited facsimiles, third-party code, modern prose or excluded datasets is claimed.",
+      "sources": [
+        {
+          "archive_name": "Chatillon_N2_width_dependency_test_20261005.zip",
+          "member": "chatillon_ablation_20261005/protocol_frozen.json",
+          "sha256": "e10aa5af5d6ed63c1b4d154e57c23308ce17f4ed954805a1ef4dde00dae9dc2c"
+        },
+        {
+          "archive_name": "Chatillon_N2_width_dependency_test_20261005.zip",
+          "member": "chatillon_ablation_20261005/prior_key_frozen.json",
+          "sha256": "0f42587daef6e7a7d35f41077d0cc7c5d9bca60a47cdf3ca9da5ab39f361fe2d"
+        },
+        {
+          "archive_name": "Chatillon_N2_width_dependency_test_20261005.zip",
+          "member": "chatillon_ablation_20261005/prior_middle_inventory_frozen.json",
+          "sha256": "b0ac8a14296b78bda40db9042c87838b49a0ac47783a37e8fc5db2f73a148580"
+        },
+        {
+          "archive_name": "Chatillon_N2_width_dependency_test_20261005.zip",
+          "member": "chatillon_ablation_20261005/RESULTS.json",
+          "sha256": "73b4c53fb3337ce7d4531026e3bdd38999a7acefeff74b3495cae595f5c77de0"
+        },
+        {
+          "archive_name": "Chatillon_N2_width_dependency_test_20261005.zip",
+          "member": "chatillon_ablation_20261005/N2_WIDTH_RESULTS.json",
+          "sha256": "9530dbe1cf486f7d45563547fb436247ee25e2fc1ea40eee92908fa785b3eb0e"
+        }
+      ],
+      "source_credit_urls": [
+        "https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f139.item",
+        "https://dbourdeau.github.io/cyphersolver/rohan1636.html"
+      ],
+      "source_sha256": "b130ebb024676a41749532a473e5918078f64f572be83ed20f76a56f2b48b872"
+    }
+  ],
+  "holds_manifest": "EXCLUSIONS.json",
+  "verification_command": "python verify.py",
+  "verification_output": "verification_results.json",
+  "restrictions": [
+    "Do not describe the complete six historical studies as fully rerunnable from this subset.",
+    "Do not claim score/search replay for Dorabella or Petraeus, historical-search replay for Caprile, or source-pixel verification for any topic.",
+    "The only complete finite historical dependency calculation repeated here is the latest Châtillon ablation/width study; Debosnys recomputes two likelihoods from aggregate counts.",
+    "The 60-token Caprile fixture remains sealed."
+  ],
+  "adapted_checker": {
+    "path": "verify.py",
+    "source_sha256": "e0d0cd5653d8e24211b696ebdfc1dc6d4819a6ef49ca0817d40ad4990ef01024",
+    "sha256": "4e59ffd4822ab9ce2e66dcc949360385e4f07fd13c06bdb4de57f48fa2043534",
+    "transform": "Required original functions only; scope dispatch restricted to this topic."
+  }
+}
