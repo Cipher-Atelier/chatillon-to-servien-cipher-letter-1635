@@ -100,5 +100,13 @@
     "current_slug": "chatillon-to-servien-cipher-letter-1635",
     "date_utc": "2026-10-06",
     "scope": "Document labels, description and navigation only. Repository identity/history and scientific identifiers remain preserved."
+  },
+  "community_workflow_update": {
+    "date_utc": "2026-10-06",
+    "previous_commit": "87cea0a1415ac8cee99e69aa02d497616acc1fdf",
+    "scope": "Research participation links and workflow entry point only; retained scientific inputs and claim status unchanged. adapted_files hashes above record the initial publication snapshot.",
+    "navigation_file": "README.md",
+    "previous_sha256": "8abbced89a4633c9822991f7ae22b70227ba14fe950e192817d4bfd1273313b6",
+    "current_sha256": "c3e0c838db9a57d0e5dc94f3ee9aa5d763bf574c7f76d9611f651b334f08f4ba"
   }
 }
