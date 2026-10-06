@@ -8,7 +8,7 @@ Reconstruct the graphical and numerical cipher in Châtillon's letter to Servien
 
 The manuscript is BnF Français 3758, item 104. The letter begins below its heading on the right-hand page of [Gallica view 135](https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f135.item) and ends on the left-hand page of [view 140](https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f140.item). The royal letter beginning on the opposite page is a different document. Cipher passages occur in views 136, 139 and 140.
 
-This investigation is separate from the [Louis XIII letter of 30 June 1635](https://github.com/Cipher-Atelier/louis-xiii-june-1635/blob/main/louis-xiii-june-1635/README.md). A statement in Châtillon's letter says that Brézé supplied a cipher previously used by Servien during a German journey. That is historical provenance, not proof that either document uses the June key.
+This investigation is separate from the [Louis XIII letter of 30 June 1635](https://github.com/Cipher-Atelier/louis-xiii-cipher-letter-june-1635/blob/main/louis-xiii-june-1635/README.md). A statement in Châtillon's letter says that Brézé supplied a cipher previously used by Servien during a German journey. That is historical provenance, not proof that either document uses the June key.
 
 ## Tests completed
 

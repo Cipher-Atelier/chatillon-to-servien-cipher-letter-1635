@@ -1,4 +1,4 @@
-# chatillon-1635
+# Châtillon’s cipher letter to Servien (3 August 1635)
 
 Local conditional repeat and N2-width dependency hypothesis. Replay covers 6,144 dependent alignment conditions and 24 width conditions, not a recovered full key or independent confirmations.
 
